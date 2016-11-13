@@ -6,7 +6,6 @@ using System.Web.Mvc;
 
 namespace Auction.Models
 {
-   [Authorize]
     public class CategoryController : Controller
     {
         private ItemDBContext db = new ItemDBContext();

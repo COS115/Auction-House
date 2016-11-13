@@ -9,7 +9,6 @@ using Auction.Models;
 
 namespace Auction.Controllers
 {
-    [Authorize]
     public class ItemsController : Controller
     {
         private ItemDBContext db = new ItemDBContext();
