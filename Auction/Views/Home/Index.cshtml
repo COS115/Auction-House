@@ -4,7 +4,7 @@
     ViewBag.count = 0;
     }
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<div class="nav-side-menu" style="height:70%" >
+<div class="nav-side-menu" style="height:100%" >
     <div class="brand">Categories</div>
     <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
 
@@ -44,6 +44,11 @@
         @if (System.Web.HttpContext.Current.User.Identity.IsAuthenticated && User.IsInRole("admin"))
         {
             @Html.ActionLink("Add new item", "Create", "Items", new { id = 1 }, new { @class = "btn btn-primary", @style = "position:relative;top:20px;width:100%" });
+        }
+
+        @if (System.Web.HttpContext.Current.User.Identity.IsAuthenticated && User.IsInRole("admin"))
+        {
+            @Html.ActionLink("Sold Items", "Index", "SoldItem", new { id = 1 }, new { @class = "btn btn-primary", @style = "position:relative;top:20px;width:100%" });
         }
         
         @if (System.Web.HttpContext.Current.User.Identity.IsAuthenticated && User.IsInRole("registeredCustomer"))
