@@ -193,9 +193,13 @@
       <DependentUpon>201611101338448_AnUpdate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Migrations\Items\201611142205442_Init.cs" />
-    <Compile Include="Migrations\Items\201611142205442_Init.Designer.cs">
-      <DependentUpon>201611142205442_Init.cs</DependentUpon>
+    <Compile Include="Migrations\Items\201611142319351_Temp.cs" />
+    <Compile Include="Migrations\Items\201611142319351_Temp.Designer.cs">
+      <DependentUpon>201611142319351_Temp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Items\201611142323247_AddingSold.cs" />
+    <Compile Include="Migrations\Items\201611142323247_AddingSold.Designer.cs">
+      <DependentUpon>201611142323247_AddingSold.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Items\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -319,8 +323,11 @@
     <EmbeddedResource Include="Migrations\201611101338448_AnUpdate.resx">
       <DependentUpon>201611101338448_AnUpdate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\Items\201611142205442_Init.resx">
-      <DependentUpon>201611142205442_Init.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\Items\201611142319351_Temp.resx">
+      <DependentUpon>201611142319351_Temp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\Items\201611142323247_AddingSold.resx">
+      <DependentUpon>201611142323247_AddingSold.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
