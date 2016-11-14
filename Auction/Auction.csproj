@@ -193,6 +193,11 @@
       <DependentUpon>201611101338448_AnUpdate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migrations\Items\201611142205442_Init.cs" />
+    <Compile Include="Migrations\Items\201611142205442_Init.Designer.cs">
+      <DependentUpon>201611142205442_Init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Items\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Auct.cs" />
     <Compile Include="Models\Category.cs" />
@@ -313,6 +318,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611101338448_AnUpdate.resx">
       <DependentUpon>201611101338448_AnUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\Items\201611142205442_Init.resx">
+      <DependentUpon>201611142205442_Init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
