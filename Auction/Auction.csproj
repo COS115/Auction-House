@@ -166,6 +166,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ItemsController.cs" />
     <Compile Include="Controllers\MainController.cs" />
+    <Compile Include="Controllers\SoldItemController.cs" />
     <Compile Include="Controllers\SuggestedItemController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -281,6 +282,11 @@
     <Content Include="Views\SuggestedItem\Index.cshtml" />
     <Content Include="Views\SuggestedItem\Approved.cshtml" />
     <Content Include="Views\SuggestedItem\ThankYou.cshtml" />
+    <Content Include="Views\SoldItem\Create.cshtml" />
+    <Content Include="Views\SoldItem\Delete.cshtml" />
+    <Content Include="Views\SoldItem\Details.cshtml" />
+    <Content Include="Views\SoldItem\Edit.cshtml" />
+    <Content Include="Views\SoldItem\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

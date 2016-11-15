@@ -29,6 +29,9 @@ namespace Auction.Models
         [StringLength(5)]
         public string Rating { get; set; }
         public byte[] imageData{get;set;}
+
+        [Display(Name ="Sold")]
+        public bool Sold { get; set; }
     }
 
     public class ItemDBContext : DbContext
